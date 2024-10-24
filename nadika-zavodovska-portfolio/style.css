@@ -50,6 +50,10 @@ nav ul {
   gap: var(--gap);
 }
 
+.contact_list {
+  padding-left: 0;
+}
+
 /* Text readability */
 section p {
   line-height: 1.5;
