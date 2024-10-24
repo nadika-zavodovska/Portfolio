@@ -93,6 +93,9 @@ nav ul {
   background-color: #05346d;
   
 }
+.portfolio_btn-block {
+  margin-bottom: 50px;
+}
 
 /* #endregion Projects showcase section */
 
@@ -102,7 +105,7 @@ section p {
   max-width: 55ch;
 }
 .portfolio_img {
-  max-width: 100%;
+  max-width: 52%;
   box-shadow: 16px 10px 15px -3px rgba(0, 0, 0, 0.2), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
