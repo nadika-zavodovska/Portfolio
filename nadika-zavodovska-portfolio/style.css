@@ -67,16 +67,39 @@ nav ul {
 }
 
 
-/* #region Header and About me section */
+/* #region Projects showcase section */
 
+.portfolio_btn-block a{
+  padding: 10px 20px;
+  
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+  
+}
+.github-btn{
+  background-color:  #074592;
+}
+.project-link{
+  background-color: #0a60ca;
+}
+.portfolio_btn-block a:hover{
+  background-color: #05346d;
+  
+}
 
-
-/* #endregion Header and About me section */
+/* #endregion Projects showcase section */
 
 /* Text readability */
 section p {
   line-height: 1.5;
   max-width: 55ch;
+}
+.portfolio_img {
+  max-width: 100%;
+}
+.portfolio_description{
+  margin-bottom: 30px;
 }
 
 
