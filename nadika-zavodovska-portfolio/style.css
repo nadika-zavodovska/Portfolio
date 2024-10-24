@@ -35,27 +35,25 @@ a:focus {
   color: var(--brand);
   border-color: currentColor;
 }
+
+img{
+  filter: brightness(100%);
+  transition: filter 0.8s ease-in-out;
+}
+img:hover {
+    filter: brightness(115%);
+    
+}
 /* Site header and navigation */
 body > header {
   background: var(--paper);
   display: flex;
-  justify-content: space-between;
-  flex-basis: 50%;
-  flex-wrap: wrap;
+  justify-content: space-between;    
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1;
 }
-.author-img_block{
-  flex-basis: 100%;
-}
-.author-img {
-  max-width: 22%;
-  border-radius: 50%;
-  margin-bottom: 5px;
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -67,11 +65,19 @@ nav ul {
 }
 
 
+/* #region About me section */
+.author-img {
+  max-width: 15%;
+  border-radius: 5px;  
+  box-shadow: 16px 10px 15px -3px rgba(0, 0, 0, 0.2), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* #endregion About me section */
+
 /* #region Projects showcase section */
 
 .portfolio_btn-block a{
-  padding: 10px 20px;
-  
+  padding: 10px 20px;  
   margin-right: 10px;
   border-radius: 5px;
   color: #fff;
@@ -97,6 +103,8 @@ section p {
 }
 .portfolio_img {
   max-width: 100%;
+  box-shadow: 16px 10px 15px -3px rgba(0, 0, 0, 0.2), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 .portfolio_description{
   margin-bottom: 30px;
@@ -104,8 +112,12 @@ section p {
 
 
 @media(max-width: 768px){
+
  h1{
   flex-basis: 30%;
   font-size: 1.5rem;
+ }
+ .author-img {
+  max-width: 35%;
  }
 }
